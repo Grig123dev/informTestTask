@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/informTestTask/static/css/main.5cf63520.chunk.css",
+    "main.js": "/informTestTask/static/js/main.f8a70a76.chunk.js",
+    "main.js.map": "/informTestTask/static/js/main.f8a70a76.chunk.js.map",
+    "runtime-main.js": "/informTestTask/static/js/runtime-main.bafe369e.js",
+    "runtime-main.js.map": "/informTestTask/static/js/runtime-main.bafe369e.js.map",
+    "static/js/2.7597e191.chunk.js": "/informTestTask/static/js/2.7597e191.chunk.js",
+    "static/js/2.7597e191.chunk.js.map": "/informTestTask/static/js/2.7597e191.chunk.js.map",
+    "index.html": "/informTestTask/index.html",
+    "precache-manifest.89e0fded6798bb27949eddf3c688f860.js": "/informTestTask/precache-manifest.89e0fded6798bb27949eddf3c688f860.js",
+    "service-worker.js": "/informTestTask/service-worker.js",
+    "static/css/main.5cf63520.chunk.css.map": "/informTestTask/static/css/main.5cf63520.chunk.css.map",
+    "static/js/2.7597e191.chunk.js.LICENSE.txt": "/informTestTask/static/js/2.7597e191.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/informTestTask/static/media/SegoeUI.ee10411f.woff",
+    "static/media/reset-icon-active.svg": "/informTestTask/static/media/reset-icon-active.7a5c9918.svg",
+    "static/media/reset-icon.svg": "/informTestTask/static/media/reset-icon.a64a85e6.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bafe369e.js",
+    "static/js/2.7597e191.chunk.js",
+    "static/css/main.5cf63520.chunk.css",
+    "static/js/main.f8a70a76.chunk.js"
+  ]
+}
