@@ -1,0 +1,3 @@
+export const ADD_DATA = 'ADD_DATA'
+export const TOGGLE_CHECKBOX = 'TOGGLE_CHECKBOX';
+export const RESET_CHECKBOXES = 'RESET_CHECKBOXES';

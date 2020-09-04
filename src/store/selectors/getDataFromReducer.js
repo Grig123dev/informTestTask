@@ -1,0 +1,1 @@
+export const getDataFromReducer = (state) => state.data

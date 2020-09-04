@@ -1,0 +1,76 @@
+.apiTable {
+  width: 100%;
+}
+
+.apiTable__content {
+  width: 100%;
+  border-collapse: collapse;
+
+  tbody {
+    width: 100%;
+  }
+
+  &_headings {
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
+
+    td {
+      text-transform: uppercase;
+      padding: 10px 16px 10px 8px;
+      font-size: 12px;
+      line-height: 16px;
+      letter-spacing: 0.05em;
+
+      input[type="checkbox"] {
+        transform: translateY(2px);
+      }
+    }
+
+    td:not(:last-child) {
+      border-right: 1px solid rgba(0, 0, 0, 0.08);
+    }
+
+    .apiTable__content_id,
+    .apiTable__content_year {
+      text-align: right;
+    }
+  }
+
+  &_details {
+    border-top: 1px solid rgba(0, 0, 0, 0.08);
+
+    td {
+      padding: 16px 16px 16px 8px;
+      font-size: 16px;
+      line-height: 16px;
+    }
+
+    .apiTable__content_id,
+    .apiTable__content_year {
+      text-align: right;
+    }
+    .apiTable__content_name {
+      text-transform: capitalize;
+    }
+    .apiTable__content_color {
+      display: inline-flex;
+      align-items: center;
+      .color {
+        width: 16px;
+        height: 16px;
+        border-radius: 2px;
+        display: inline-block;
+        margin-right: 4px;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .apiTable {
+    overflow-x: scroll;
+  }
+
+  .apiTable__content {
+    width: 640px;
+  }
+}
